@@ -23,7 +23,7 @@ async function main() {
     data: {
       authorId: 4,
       title: "Duplicate Post",
-      content: "This checking post as 4th user",
+      content: "This is checking post as 4th user",
       published: true,
     },
   });
