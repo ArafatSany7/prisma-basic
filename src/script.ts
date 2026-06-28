@@ -22,7 +22,7 @@ async function main() {
   const newPost = await prisma.post.create({
     data: {
       authorId: 4,
-      title: "Duplicate Post",
+      title: "Duplicate author Post",
       content: "This is checking post as 4th user",
       published: true,
     },
